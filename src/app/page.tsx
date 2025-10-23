@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -10,9 +10,9 @@ import TestimonialCardTwo from '@/components/sections/testimonial/TestimonialCar
 import SocialProofOne from '@/components/sections/socialProof/SocialProofOne';
 import ContactSplitForm from '@/components/sections/contact/ContactSplitForm';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Award, Bed, Crown, Home, MapPin, MessageCircle, Sparkles, Star, Waves } from 'lucide-react';
+import { Award, Bed, Crown, MapPin, MessageCircle, Sparkles, Star, Waves } from 'lucide-react';
 
-export default function Home() {
+export default function HomePage() {
   return (
     <ThemeProvider
       defaultButtonVariant="shift-hover"
@@ -86,7 +86,7 @@ export default function Home() {
             {
               title: "Deluxe Room",
               description: "Spacious rooms with premium amenities, marble bathrooms, and stunning city views for the discerning traveler",
-              icon: Home,
+              icon: Star,
               button: { text: "View Details", href: "contact" }
             },
             {
